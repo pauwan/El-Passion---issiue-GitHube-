@@ -1,0 +1,23 @@
+.background {
+    background-image: url('../img/background.jpg');
+    width: 780px;
+    height: 980px;
+    margin: 0 20%;
+    background-size: cover;
+    background-position: 70%;
+    background-origin: content-box;
+    -moz-background-origin: content-box;
+    -webkit-background-origin: content-box;
+    position: absolute;
+}
+
+.container {
+    width: 70%;
+    height: 44%;
+    margin: 40% auto;
+    border-radius: 10px;
+    box-shadow: 0 0 40px black;
+    -moz-box-shadow: 0 0 40px black;
+    -webkit-box-shadow: 0 0 40px black;
+    display: flex;
+}
